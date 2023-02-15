@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Valentines Day</title>
+    <script>
+        function play() {
+            var audio = new Audio ("audio.mp3");
+            audio.play();
+        }
+    </script>
+    <style>
+        img{
+            border-color: red;
+            border-style: double;
+            border-width: 8px;
+        }
+        body{
+            background-color:lightpink;
+        }
+    </style>
+</head>
+<body>
+    <img src="card.jpg" usemap="#val">
+
+    <map name="val">
+        <area target = "_blank" shape = "circle" href="codyJohnson.jpg" coords="207,311,30">
+        <area target = "_blank" shape = "circle" href="rileyGreen.jpg" coords="263,305,30" >
+        <area target = "_blank" shape = "circle" href="redFrenchie.jpg" coords="437,359,30" >
+        <area target = "_blank" shape = "circle" href="frenchieBros.jpg" coords="497,357,30" >
+        <area target = "_blank" shape = "rect" onclick="play()" coords="16,855,692,647"
+    </map>
+
+</body>
+</html>
